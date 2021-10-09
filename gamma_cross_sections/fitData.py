@@ -155,7 +155,7 @@ plot_data(
      'Gamma Transmission Intensity  \n ($^{137}$Cs, Al, E = 32 keV)',
      'Thickness, $x$ (cm)',
      'Count Rate, $R$ (counts/s)',
-     'io/outputs/137cs_32.pdf'
+     'io/outputs/plots/137cs_32.pdf'
 )
 
 # 137cs (662 keV):
@@ -173,9 +173,18 @@ plot_data(
      'Gamma Transmission Intensity  \n ($^{137}$Cs, Al, E = 662 keV)',
      'Thickness, $x$ (cm)',
      'Count Rate, $R$ (counts/s)',
-     'io/outputs/137cs_662.pdf'
+     'io/outputs/plots/137cs_662.pdf'
 )
 
 # Save output ---------------------------------------------
+# linear attenuation coefficient:
+lin_atten.to_excel(
+    'io/outputs/data/linear_atten.xlsx'
+)
+
+# cross section:
+cross_section.to_excel(
+    'io/outputs/data/cross_section.xlsx'
+)
 
 # end routine
