@@ -2,21 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d28d17d3-3aef-43ae-b411-b6b66143ec1b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/fitSpectrum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io/inputs/old-style.mplstyle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plotSpectrum.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fitData.py" beforeDir="false" afterPath="$PROJECT_DIR$/fitData.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitData.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/plot_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions/plot_data.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/io/inputs/gammaEnergies.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/io/inputs/gammaEnergies.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/io/inputs/~$gammaEnergies.xlsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/io/outputs/data/cross_section.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/io/outputs/data/cross_section.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/io/outputs/data/linear_atten.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/io/outputs/data/linear_atten.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/io/outputs/plots/133ba_31.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/io/outputs/plots/133ba_31.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/io/outputs/plots/133ba_356.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/io/outputs/plots/133ba_356.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/io/outputs/plots/133ba_81.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/io/outputs/plots/133ba_81.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/io/outputs/plots/137cs_32.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/io/outputs/plots/137cs_32.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/io/outputs/plots/137cs_662.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/io/outputs/plots/137cs_662.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/io/outputs/plots/22na_1275.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/io/outputs/plots/22na_1275.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/io/outputs/plots/22na_511.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/io/outputs/plots/22na_511.pdf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1zI2291RPyUnmwD2DHjCjz78yTb" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -34,7 +59,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.fitEnergies">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="gamma_cross_sections" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -61,6 +86,9 @@
       <module name="gamma_cross_sections" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -76,8 +104,94 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="fitEnergies" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="gamma_cross_sections" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fitEnergies.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="fitSpectrum" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="gamma_cross_sections" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fitSpectrum.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="plotSpectrum" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="gamma_cross_sections" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/plotSpectrum.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="plot_data" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="gamma_cross_sections" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/functions" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/functions/plot_data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.fitEnergies" />
+        <item itemvalue="Python.plot_data" />
+        <item itemvalue="Python.fitSpectrum" />
+        <item itemvalue="Python.plotSpectrum" />
         <item itemvalue="Python.fitData" />
       </list>
     </recent_temporary>
@@ -90,11 +204,29 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1633821073244</updated>
-      <workItem from="1633821092262" duration="5328000" />
+      <workItem from="1633821092262" duration="6962000" />
+      <workItem from="1634322971685" duration="7000" />
+      <workItem from="1634524396027" duration="6634000" />
+      <workItem from="1634531587641" duration="10430000" />
+      <workItem from="1634544289403" duration="8267000" />
+      <workItem from="1634587200827" duration="1937000" />
+      <workItem from="1634619109492" duration="3961000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

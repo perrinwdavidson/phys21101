@@ -1,0 +1,45 @@
+#  Report 1
+
+## Goals
+(1) Collect all the data
+(2) Determine the total cross section at each gamma energy tested
+	(*) include properly propagated uncertainty
+(3) Compare your measured values to the predictions of the Thomson model
+(4) Assess how well this model represents the results of your experiment
+
+## Spectra
+(1) Fully discuss and annotate one spectrum of data
+	(*) Choose one spectrum (for a source of your choice) and replot the data (from the *.tsv file) using Python
+	(*) Identify all the features of the plot including full energy peaks, Compton edges and backscatter peaks (if visible)
+		(-) This can be done by adding annotation text on the plot and by making careful notes in the figure caption
+
+(2) Choose one of the full energy peaks and perform a fit to a Gaussian with a linear background: f(x) = \dfrac{N}{\sigma \sqrt{2\pi}}e^{-(x-\mu)^2/(2\sigma^2)} + Ax + B
+	(*) Report the values and uncertainties of each fit parameter. 
+	(*) These values may be given as an annotation in the plot, or separately as a table of data. 
+		(-) Be careful to include units and report an appropriate number of significant figures!
+
+## Linear attenuation
+(1) Determine the linear attenuation (and then, by conversion, the total cross section). 
+	(*) For each energy (i.e. each peak you monitored during lab), plot the count rate as a function of absorber thickness. 
+		(-) You will have 4-7 energies total, depending on which sources you used and which peaks you were able to monitor.
+	(*) Include error bars on each data point and use these uncertainties when computing a best fit to the function of the form: R(x) = R_0 e^{-\lambda x} + B
+	(*) What is the purpose of including the constant B?
+	(*) Each energy plot will yield one linear attenuation coefficient. 
+	(*) Using the appropriate electron density for your absorber material (see Sec. 2.2), convert each linear attenuation coefficient to a cross section.
+(2) Extract literature values from the file and add these (along with uncertainties) to the table of measured values. 
+	(*) You may need to interpolate between given data points in order to find an estimate at certain gamma energies used in this experiment. 
+	(*) For our purposes, you may assume a 3% uncertainty on all the data points in the file
+	(*) You should use your own judgement when determining the uncertainty on your interpolated value. 
+(3) Compile into a single table the following values and uncertainties at each energy:
+  	(*) measured linear attenuation coefficient (from fit),
+  	(*) literature value for the linear attenuation coefficient (from NIST data), and
+  	(*) measured cross section (from calculation using measured linear attenuation coefficient).
+(4) Comment on the agreement between your measurements and the literature.
+
+## Comparison with the Thomson scattering model
+(1) For each energy studied, compare the Thomson cross section to the measured cross section. 
+	(*) Are they in agreement? 
+		(-) If not, is the measured value higher or lower (by a statistically significant amount) than the Thomson prediction. 
+		(-) If the measured value is higher, what does this mean? 
+		(-) If it is lower, what does that mean? 
+		(-) Can you determine which process (photoelectric effect, Compton scattering or pair production) dominates at each energy explored in this experiment?
