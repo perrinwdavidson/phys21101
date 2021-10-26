@@ -1,25 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d28d17d3-3aef-43ae-b411-b6b66143ec1b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/fitSpectrum.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/io/inputs/old-style.mplstyle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plotSpectrum.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fitData.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/plot_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions/plot_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/io/inputs/gammaEnergies.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/io/inputs/gammaEnergies.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/io/inputs/~$gammaEnergies.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/io/outputs/data/cross_section.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/io/outputs/data/cross_section.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/io/outputs/data/linear_atten.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/io/outputs/data/linear_atten.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/io/outputs/plots/133ba_31.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/io/outputs/plots/133ba_31.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/io/outputs/plots/133ba_356.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/io/outputs/plots/133ba_356.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/io/outputs/plots/133ba_81.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/io/outputs/plots/133ba_81.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/io/outputs/plots/137cs_32.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/io/outputs/plots/137cs_32.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/io/outputs/plots/137cs_662.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/io/outputs/plots/137cs_662.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/io/outputs/plots/22na_1275.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/io/outputs/plots/22na_1275.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/io/outputs/plots/22na_511.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/io/outputs/plots/22na_511.pdf" afterDir="false" />
-    </list>
+    <list default="true" id="d28d17d3-3aef-43ae-b411-b6b66143ec1b" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -108,6 +90,9 @@
       <module name="gamma_cross_sections" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -171,6 +156,9 @@
       <module name="gamma_cross_sections" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/functions" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -210,7 +198,7 @@
       <workItem from="1634531587641" duration="10430000" />
       <workItem from="1634544289403" duration="8267000" />
       <workItem from="1634587200827" duration="1937000" />
-      <workItem from="1634619109492" duration="3961000" />
+      <workItem from="1634619109492" duration="4171000" />
     </task>
     <servers />
   </component>
