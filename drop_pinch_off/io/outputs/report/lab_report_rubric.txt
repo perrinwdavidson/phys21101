@@ -1,0 +1,26 @@
+## Lab report rubric
+- Details on sample preparation if you made your own samples.
+- A description of the different power law relationships you were able to come up with and an interpretation of why they seem like reasonable descriptions of the pinch off process.
+- Plots of the data showing different power law regimes.
+- How you determined minimum neck radii.
+- How you calibrated the image scale.
+- How you assessed, quantified and propagated uncertainties should be discussed and made clear including examples of how calculations were done where appropriate.
+- How you arrived at the different power law relationships.
+- How your observations of the behavior of the drop in each regime makes sense in terms of the dominant physical parameters in play.
+- Presents plots of data as needed and uses them to support the narrative of the report.
+- Properly labels plots, and makes presentation clean and clear.
+- Uses error bars where appropriate.
+- Includes captions that provide appropriate context.
+- Presents all numerical values with appropriate units and significant figures.
+- Clearly formats numbers, equations, tables, etc.
+- Describes how the raw data was processed including with uncertainties. 
+- Details fit functions and provides sample fits (if appropriate). 
+- Details other calculations/considerations and provides sample calculations or reasoning (if appropriate).
+- Identifies relevant sources of uncertainty in measured quantities, and quantifies values when possible. 
+- Describes how uncertainties were assessed and incorporated into the analysis. 
+- Identifies potential sources of systematic bias and describes how they are accounted for in the analysis or eliminated.
+- Final results are presented clearly. 
+- Data tables and plots are used where appropriate and are properly labeled and annotated. 
+- Measured and calculated quantities include units and uncertainties where appropriate.
+- Makes clear final conclusions that are fully supported by the experimental results and discusses the overall take-aways of the experiment appropriately. 
+- Properly accounts for or contextualizes measurement uncertainties and potential sources of systematic bias.	

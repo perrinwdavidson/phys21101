@@ -1,0 +1,29 @@
+# To build this environment run:
+# conda env create --name PHYS211 --file PHYS211_env.yml --force
+
+name: PHYS211
+channels:
+  - defaults
+dependencies:
+  - python==3.7.*
+  - numpy==1.19.*
+  - pandas==1.*
+  - scikit-learn==0.23.*
+  - matplotlib==3.*
+  - geopandas
+  - mapclassify
+  - descartes
+  - h5py
+  - cartopy
+  - tqdm
+  - jupyterlab
+  - spyder
+  - psutil
+  - pytest
+  - pip
+  - pip:
+     - purpleair
+     - adjustText
+     - pyhdf
+     - opencv-python
+     - ipympl
